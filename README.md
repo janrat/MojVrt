@@ -4,7 +4,7 @@
         <li>V projekt dodamo Nuget paketa imenovana Sqlite-net in SQlitePCL</li>
         <li>Na začetku kjer so vključene vrstice dodamo: using System.Data.SQLite;</li>
 </ul>
-Povezava na lokalno podatkovno bazo (SQlite):
+</br>Povezava na lokalno podatkovno bazo (SQlite):
 
         SQLiteConnection povezava;
         SQLiteCommand ukaz = new SQLiteCommand();
@@ -23,8 +23,8 @@ Urejanje lokalne podatkovne baze:
             ukaz.ExecuteNonQuery();
             povezava.Close();
         }
-</br></br>
-Branje iz lokalne podatkovne baze:</br></br>
+</br>
+Branje iz lokalne podatkovne baze:
 
         private void executeQuery(string sql)
         {
@@ -46,12 +46,12 @@ Branje iz lokalne podatkovne baze:</br></br>
             }
         }
 
-klicanje funkcij za lokalno podatkovno bazo:</br></br>
+</br>Klicanje funkcij za lokalno podatkovno bazo:</br></br>
 
         string sql = "SELECT * FROM ime_tabele;";
         executeQuery(sql);
         
-API za dobivanje podatkov sončnega zahoda:</br></br>
+</br>API za dobivanje podatkov sončnega zahoda:</br></br>
 
          using (WebClient wc = new WebClient())
             {
@@ -61,8 +61,8 @@ API za dobivanje podatkov sončnega zahoda:</br></br>
                 string ostalo = valueOriginal.Substring(47, 2); // dobi podatke od 47 znaka za 2 znak naprej
                 int h = DateTime.Parse(ure + "pm").Hour; // pretvori iz 12h formata v 24h format
             }
-</br></br>
-Povezava na Azure:</br></br>
+</br>
+Povezava na Azure:
 
         private MySqlConnection connection;
         private string server;
@@ -100,8 +100,8 @@ Povezava na Azure:</br></br>
                 return false;
             }
         }
-</br></br>
-Prekinitev povezave:</br></br>
+</br>
+Prekinitev povezave:
 
         private bool odpovezi()
         {
@@ -117,7 +117,7 @@ Prekinitev povezave:</br></br>
             }
         }
 
-Urejanje podatkovne baze na Azuru:</br></br>
+</br>Urejanje podatkovne baze na Azuru:
 
         public void nonQuery(string query)
         {
