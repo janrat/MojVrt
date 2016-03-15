@@ -1,10 +1,11 @@
-Prva instalacija: </br></br>
--	Ustvarimo nov projekt > Windows Form Aplication</br>
--	V projekt dodamo Nuget paketa imenovana Sqlite-net in SQlitePCL</br>
--	Na začetku kjer so vključene vrstice dodamo: using System.Data.SQLite;</br></br>
-Povezava na lokalno podatkovno bazo (SQlite):</br>
-        SQLiteConnection povezava;</br>
-        SQLiteCommand ukaz = new SQLiteCommand();</br>
-        SQLiteDataAdapter dataadapter;</br>
-        DataSet dataset = new DataSet();</br>
-        DataTable datatable = new DataTable();</br></br>
+Prva instalacija:
+-	Ustvarimo nov projekt > Windows Form Aplication
+-	V projekt dodamo Nuget paketa imenovana Sqlite-net in SQlitePCL
+-	Na začetku kjer so vključene vrstice dodamo: using System.Data.SQLite;
+Povezava na lokalno podatkovno bazo (SQlite):
+        SQLiteConnection povezava;
+        SQLiteCommand ukaz = new SQLiteCommand();
+        SQLiteDataAdapter dataadapter;
+        DataSet dataset = new DataSet();
+        DataTable datatable = new DataTable();
+        
