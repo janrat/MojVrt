@@ -1,0 +1,73 @@
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\MojVrt.exe.config
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\MojVrt.exe
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\MojVrt.pdb
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.csprojResolveAssemblyReference.cache
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.Form1.resources
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.Properties.Resources.resources
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.csproj.GenerateResource.Cache
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.exe
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.pdb
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\EntityFramework.dll
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.dll
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\EntityFramework.xml
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.xml
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\Newtonsoft.Json.dll
+c:\users\jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\bin\Debug\MySql.Data.dll
+C:\Users\Jan\documents\visual studio 2015\Projects\MojVrt\MojVrt\obj\Debug\MojVrt.prijava.resources
+F:\MojVrt\MojVrt\bin\Debug\MojVrt.exe.config
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.exe
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.pdb
+F:\MojVrt\MojVrt\bin\Debug\MojVrt.exe
+F:\MojVrt\MojVrt\bin\Debug\MojVrt.pdb
+F:\MojVrt\MojVrt\bin\Debug\EntityFramework.dll
+F:\MojVrt\MojVrt\bin\Debug\EntityFramework.SqlServer.dll
+F:\MojVrt\MojVrt\bin\Debug\MySql.Data.dll
+F:\MojVrt\MojVrt\bin\Debug\Newtonsoft.Json.dll
+F:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.dll
+F:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.EF6.dll
+F:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.Linq.dll
+F:\MojVrt\MojVrt\bin\Debug\EntityFramework.xml
+F:\MojVrt\MojVrt\bin\Debug\EntityFramework.SqlServer.xml
+F:\MojVrt\MojVrt\bin\Debug\Newtonsoft.Json.xml
+F:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.xml
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.csprojResolveAssemblyReference.cache
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.Form1.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.prijava.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.Properties.Resources.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.csproj.GenerateResource.Cache
+D:\MojVrt\MojVrt\bin\Debug\MojVrt.exe.config
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.exe
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.pdb
+D:\MojVrt\MojVrt\bin\Debug\MojVrt.exe
+D:\MojVrt\MojVrt\bin\Debug\MojVrt.pdb
+D:\MojVrt\MojVrt\bin\Debug\EntityFramework.dll
+D:\MojVrt\MojVrt\bin\Debug\EntityFramework.SqlServer.dll
+D:\MojVrt\MojVrt\bin\Debug\MySql.Data.dll
+D:\MojVrt\MojVrt\bin\Debug\Newtonsoft.Json.dll
+D:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.dll
+D:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.EF6.dll
+D:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.Linq.dll
+D:\MojVrt\MojVrt\bin\Debug\EntityFramework.xml
+D:\MojVrt\MojVrt\bin\Debug\EntityFramework.SqlServer.xml
+D:\MojVrt\MojVrt\bin\Debug\Newtonsoft.Json.xml
+D:\MojVrt\MojVrt\bin\Debug\System.Data.SQLite.xml
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.csprojResolveAssemblyReference.cache
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.Form1.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.prijava.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.Properties.Resources.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.csproj.GenerateResource.Cache
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.registracija.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.dodajVrt.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.meni.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.izbor_vrta.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.dodajVrt.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.izbor_vrta.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.meni.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.registracija.resources
+F:\MojVrt\MojVrt\obj\Debug\MojVrt.vrt_podrobnosti.resources
+D:\MojVrt\MojVrt\obj\Debug\MojVrt.vrt_podrobnosti.resources
