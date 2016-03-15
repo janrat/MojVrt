@@ -1,16 +1,18 @@
-Prva instalacija:
-        -Ustvarimo nov projekt > Windows Form Aplication
-        -V projekt dodamo Nuget paketa imenovana Sqlite-net in SQlitePCL
-        -Na začetku kjer so vključene vrstice dodamo: using System.Data.SQLite;
+Prva instalacija:</br></br>
+        -Ustvarimo nov projekt > Windows Form Aplication</br>
+        -V projekt dodamo Nuget paketa imenovana Sqlite-net in SQlitePCL</br>
+        -Na začetku kjer so vključene vrstice dodamo: using System.Data.SQLite;</br>
 
-Povezava na lokalno podatkovno bazo (SQlite):
+Povezava na lokalno podatkovno bazo (SQlite):</br></br>
+
         SQLiteConnection povezava;
         SQLiteCommand ukaz = new SQLiteCommand();
         SQLiteDataAdapter dataadapter;
         DataSet dataset = new DataSet();
         DataTable datatable = new DataTable();
         
-Urejanje lokalne podatkovne baze:
+Urejanje lokalne podatkovne baze:</br></br>
+
         public void executeNonQuery(string sql)
         {
         povezava = new SQLiteConnection("Data    Source=baza_vrt.sqlite;Version=3;New=False;Compress=True;");
@@ -20,8 +22,9 @@ Urejanje lokalne podatkovne baze:
             ukaz.ExecuteNonQuery();
             povezava.Close();
         }
+</br></br>
+Branje iz lokalne podatkovne baze:</br></br>
 
-Branje iz lokalne podatkovne baze:
         private void executeQuery(string sql)
         {
             povezava = new SQLiteConnection("Data Source=baza_vrt.sqlite;Version=3;New=False;Compress=True;");
@@ -42,11 +45,13 @@ Branje iz lokalne podatkovne baze:
             }
         }
 
-klicanje funkcij za lokalno podatkovno bazo:
+klicanje funkcij za lokalno podatkovno bazo:</br></br>
+
         string sql = "SELECT * FROM ime_tabele;";
         executeQuery(sql);
         
-API za dobivanje podatkov sončnega zahoda:
+API za dobivanje podatkov sončnega zahoda:</br></br>
+
          using (WebClient wc = new WebClient())
             {
                 var json = wc.DownloadString("http://api.sunrise-sunset.org/json?lat=46.3622743&lng=15.1106582&date=today");
@@ -55,8 +60,9 @@ API za dobivanje podatkov sončnega zahoda:
                 string ostalo = valueOriginal.Substring(47, 2); // dobi podatke od 47 znaka za 2 znak naprej
                 int h = DateTime.Parse(ure + "pm").Hour; // pretvori iz 12h formata v 24h format
             }
+</br></br>
+Povezava na Azure:</br></br>
 
-Povezava na Azure:
         private MySqlConnection connection;
         private string server;
         private string database;
@@ -69,7 +75,7 @@ Povezava na Azure:
         password = "b0380f00";
         
         connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-
+        
         public bool povezi()
         {
             connection = new MySqlConnection();
@@ -86,7 +92,6 @@ Povezava na Azure:
                     case 0:
                         MessageBox.Show("Povezava z serverjem nemogoča.");
                         break;
-
                     case 1045:
                         MessageBox.Show("Napačni credential-i.");
                         break;
@@ -94,8 +99,9 @@ Povezava na Azure:
                 return false;
             }
         }
+</br></br>
+Prekinitev povezave:</br></br>
 
-Prekinitev povezave:
         private bool odpovezi()
         {
             try
@@ -110,7 +116,8 @@ Prekinitev povezave:
             }
         }
 
-Urejanje podatkovne baze na Azuru:
+Urejanje podatkovne baze na Azuru:</br></br>
+
         public void nonQuery(string query)
         {
             if (povezi() == true)
