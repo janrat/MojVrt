@@ -70,10 +70,10 @@ Povezava na Azure:
         private string uid;
         private string password;
         
-        server = "eu-cdbr-azure-west-d.cloudapp.net";
-        database = "vrt_uporabniki";
-        uid = "b0e83ff9a8ec09";
-        password = "b0380f00";
+        server = ""; //ime serverja npr. eu-cdbr-azure-west-d.cloudapp.net
+        database = "ime_baze";
+        uid = "xxxxxxxx";
+        password = "xxxxxx";
         
         connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
         
