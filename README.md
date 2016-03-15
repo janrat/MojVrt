@@ -1,3 +1,5 @@
+https://github.com/JakaJenko/Moj-Vrt
+https://azurehowto101.wordpress.com/uvod-v-microsoft-azure/
 <h3>Prva instalacija:</h3>
 <ul>
         <li>Ustvarimo nov projekt > Windows Form Aplication</li>
