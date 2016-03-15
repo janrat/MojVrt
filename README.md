@@ -1,5 +1,5 @@
-https://github.com/JakaJenko/Moj-Vrt
-https://azurehowto101.wordpress.com/uvod-v-microsoft-azure/
+Povezava do metro aplikacije, ki jo je naredil Jaka Jenko:</br> https://github.com/JakaJenko/Moj-Vrt </br>
+Povezava do vodiča, kako upravljati Microsoft Aure, ki ga je spisal Matic Šincek:</br> https://azurehowto101.wordpress.com/uvod-v-microsoft-azure/ </br>
 <h3>Prva instalacija:</h3>
 <ul>
         <li>Ustvarimo nov projekt > Windows Form Aplication</li>
