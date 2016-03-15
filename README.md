@@ -46,12 +46,12 @@ Branje iz lokalne podatkovne baze:
             }
         }
 
-</br>Klicanje funkcij za lokalno podatkovno bazo:</br></br>
+</br>Klicanje funkcij za lokalno podatkovno bazo:
 
         string sql = "SELECT * FROM ime_tabele;";
         executeQuery(sql);
         
-</br>API za dobivanje podatkov sončnega zahoda:</br></br>
+</br>API za dobivanje podatkov sončnega zahoda:
 
          using (WebClient wc = new WebClient())
             {
