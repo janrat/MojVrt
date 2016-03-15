@@ -4,7 +4,7 @@
         <li>V projekt dodamo Nuget paketa imenovana Sqlite-net in SQlitePCL</li>
         <li>Na začetku kjer so vključene vrstice dodamo: using System.Data.SQLite;</li>
 </ul>
-Povezava na lokalno podatkovno bazo (SQlite):</br></br>
+Povezava na lokalno podatkovno bazo (SQlite):
 
         SQLiteConnection povezava;
         SQLiteCommand ukaz = new SQLiteCommand();
@@ -12,7 +12,7 @@ Povezava na lokalno podatkovno bazo (SQlite):</br></br>
         DataSet dataset = new DataSet();
         DataTable datatable = new DataTable();
         
-Urejanje lokalne podatkovne baze:</br></br>
+Urejanje lokalne podatkovne baze:
 
         public void executeNonQuery(string sql)
         {
